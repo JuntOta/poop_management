@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+header{
+  height:100px;
+  width: 100%;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-title{
+  font-size: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.title{
+  text-decoration: none;
+  color: black;
+}
+
+.list-right{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-right: 40px;
+}
+
+.user-nickname {
+  text-decoration: none;
+  margin-right: 3vw;
+  color: black;
+  font-weight: bold;
+}
+
+.logout {
+  text-decoration: none;
+  color: black;
+}
+
+.login {
+  text-decoration: none;
+  margin-right: 3vw;
+  color: black;
+}
+
+.sign-up {
+  text-decoration: none;
+  color: black;
+  padding-top: 50px;
+}
