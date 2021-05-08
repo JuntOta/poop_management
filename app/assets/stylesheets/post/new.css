@@ -1,0 +1,17 @@
+.form__wrapper{
+  min-height: calc(100vh - 161px);
+}
+
+.field{
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.actions{
+  margin-bottom: 40px;
+}
+
+.form__btn{
+  background: pink;
+
+}
