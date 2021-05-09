@@ -1,3 +1,19 @@
-body{
-  background-color: brown;
+/*相談一覧*/
+
+.post{
+  border: 1px solid;
+  width: 40%;
+  margin-top: 30px;
+  margin-left: 30px;
 }
+
+.post-date{
+  color: gray;
+}
+
+.post-title{
+  font-size: 20px;
+  color: gray;
+}
+
+/*相談一覧*/
