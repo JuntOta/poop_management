@@ -1,7 +1,7 @@
 <%# CSS・・・assets/stylesheets/shared/header.css %>
 <header class = "site-header">
   <div class = "site-title">
-  <%= link_to "Poop management", "#", class: "title" %>
+  <%= link_to "Poop management", root_path, class: "title" %>
   </div>
   <ul class = "list-right">
       <% if user_signed_in? %>
