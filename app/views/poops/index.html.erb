@@ -1,54 +1,41 @@
 <%= render "shared/header" %>
 
-<p>poop management</p>
-
 <%# うんち記録 %>
 <p id="notice"><%= notice %></p>
-
-<div class="toppage">
-<h1 class="top">カレンダー</h1>
-<br>
-
-<div class="row">
-<div class="col-md-4">
-	<div class="schedule">今後の予定一覧</div>
-<table class="table">
-  <thead class="thead-light">
-    <tr>
-      <th>タイトル</th>
-      <th>日程</th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @poops.each do |poop| %>
-      <tr>
-        <td><%= link_to poop.text , poop %></td>
-        <td><%= poop.date.strftime("%m-%d") %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
 
 
 <%= form_with(model: @poop, local: true) do |form| %>
 
-  <div class="title">
-    <div class="form-tag">タイトル</div>
-    <%= form.text_field :text %>
+  <div class="time">
+    <div class="form-tag">時間</div>
+    <%= form.datetime_select :start_time %>
   </div>
-
 
   <div class="content">
-    <div class="form-tag">内容</div>
+    <div class="form-tag">メモ</div>
     <%= form.text_field :text %>
   </div>
-
-    <div class="time">
-    <div class="form-tag">時間</div>
-    <%= form.datetime_select :date %>
+  
+  <div class="content">
+    <div class="form-tag">色</div>
+    <%= form.collection_select(:color_id, Color.all, :id, :name, {}, {class:"genre-select"}) %>
   </div>
+
+  <div class="content">
+    <div class="form-tag">量</div>
+    <%= form.collection_select(:amount_id, Amount.all, :id, :name, {}, {class:"genre-select"}) %>
+  </div>
+
+  <div class="content">
+    <div class="form-tag">形</div>
+    <%= form.collection_select(:shape_id, Shape.all, :id, :name, {}, {class:"genre-select"}) %>
+  </div>
+
+  <div class="content">
+    <div class="form-tag">におい</div>
+    <%= form.collection_select(:smell_id, Smell.all, :id, :name, {}, {class:"genre-select"}) %>
+  </div>
+
 
  <div class="submit">
     <%= form.submit %>
@@ -66,7 +53,7 @@
 
   <% poops.each do |poop| %>
     <div>
-      <%= link_to poop.text, poop %>
+      <%= link_to poop.text, edit_poop_path(poop) %>
     </div>
   <% end %>
 <% end %>

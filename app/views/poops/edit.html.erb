@@ -1,19 +1,13 @@
-<%= form_with(model: @poop, local: true) do |form| %>
-
-  <div class="title">
-    <div class="form-tag">タイトル</div>
-    <%= form.text_field :text %>
-  </div>
-
+<%= form_with model: @poop, local: true  do |form| %>
 
   <div class="content">
     <div class="form-tag">内容</div>
     <%= form.text_field :text %>
   </div>
 
-    <div class="time">
+  <div class="time">
     <div class="form-tag">時間</div>
-    <%= form.datetime_select :date %>
+    <%= form.datetime_select :start_time %>
   </div>
 
 

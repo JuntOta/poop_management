@@ -44,8 +44,8 @@ ActiveRecord::Schema.define(version: 2021_05_09_034615) do
   end
 
   create_table "poops", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
-    t.date "date", null: false
-    t.text "text", null: false
+    t.datetime "start_time", null: false
+    t.text "text"
     t.integer "color_id", null: false
     t.integer "amount_id", null: false
     t.integer "shape_id", null: false

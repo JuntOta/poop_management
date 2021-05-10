@@ -22,6 +22,6 @@ class PoopsController < ApplicationController
   private
 
   def poop_params
-    params.require(:poop).permit(:date, :text, :color_id, :amount_id, :shape_id, :smell_id).merge(user_id: current_user.id)
+    params.require(:poop).permit(:start_time, :text, :color_id, :amount_id, :shape_id, :smell_id).merge(user_id: current_user.id)
   end
 end
