@@ -16,22 +16,22 @@
     <%= form.text_field :text %>
   </div>
   
-  <div class="content">
+  <div class="color">
     <div class="form-tag">色</div>
     <%= form.collection_select(:color_id, Color.all, :id, :name, {}, {class:"genre-select"}) %>
   </div>
 
-  <div class="content">
+  <div class="amount">
     <div class="form-tag">量</div>
     <%= form.collection_select(:amount_id, Amount.all, :id, :name, {}, {class:"genre-select"}) %>
   </div>
 
-  <div class="content">
+  <div class="shape">
     <div class="form-tag">形</div>
     <%= form.collection_select(:shape_id, Shape.all, :id, :name, {}, {class:"genre-select"}) %>
   </div>
 
-  <div class="content">
+  <div class="smell">
     <div class="form-tag">におい</div>
     <%= form.collection_select(:smell_id, Smell.all, :id, :name, {}, {class:"genre-select"}) %>
   </div>
