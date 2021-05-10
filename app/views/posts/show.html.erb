@@ -1,4 +1,5 @@
 <%# CSS・・・assets/stylesheets/post/show.css %>
+<%= render "shared/header" %>
 
 <main class="main">
   <div class="inner">
@@ -29,29 +30,29 @@
           </p>
         </div>
       </div>
-      <%# <div class="post__comments"> %>
-        <%# <% if user_signed_in? %> %>
-          <%# <%= form_with model: [@prototype, @comment],local: true do |f|%> %>
-            <%# <div class="field"> %>
-               <%# <%= f.label :comment, "コメント" %><br /> %>
-               <%# <%= f.text_field :text, id:"comment_text" %> %>
-            <%# </div> %>
-            <%# <div class="actions"> %>
-               <%# <%= f.submit "送信する", class: :form__btn  %> %>
-            <%# </div> %>
-          <%# <% end %>  %>
-        <%# <% end %> %>
-        <%# <ul class="comments_lists"> %>
+      <div class="post__comments">
+        <% if user_signed_in? %>
+          <%= form_with model: [@post, @comment], local: true do |f|%>
+            <div class="field">
+               <%= f.label :comment, "コメント" %><br />
+               <%= f.text_field :text, id:"comment_text" %>
+            </div>
+            <div class="actions">
+               <%= f.submit "送信する", class: :form__btn  %>
+            </div>
+          <% end %> 
+        <% end %>
+        <ul class="comments_lists">
           <%# 投稿に紐づくコメントを一覧する処理を記述する %>
-          <%# <% @comments.each do |comment| %> %>
-            <%# <li class="comments_list"> %>
-              <%# <%= comment.text %> %>
-              <%# <%= link_to comment.user.name, "/users/#{comment.user.id}", class: :comment_user %> %>
-            <%# </li> %>
-          <%# <% end %> %>
+          <% @comments.each do |comment| %>
+            <li class="comments_list">
+              <%= comment.text %>
+              <%= link_to comment.user.nickname, "/users/#{comment.user.id}", class: :comment_user %>
+            </li>
+          <% end %>
           <%# // 投稿に紐づくコメントを一覧する処理を記述する %>
-        <%# </ul> %>
-      <%# </div> %>
+        </ul>
+      </div>
     </div>
   </div>
 </main>
