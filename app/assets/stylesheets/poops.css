@@ -1,3 +1,69 @@
+/*うんち記録*/
+
+.infomations{
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 25px;
+  font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+}
+
+.info{
+  display: flex;
+}
+
+.form-tag{
+  margin-bottom: 10px;
+}
+
+.info-icon{
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+}
+
+.time-box{
+  height: 30px;
+  width: 100px;
+}
+
+.pulldown{
+  display: flex;
+  margin-top: 20px;
+}
+
+.pulldown-box{
+  height: 30px;
+  width: 200px;
+}
+
+.shape{
+}
+
+.color{
+  margin-left: 40px;
+}
+
+.amount{
+  margin-left: 40px;
+}
+
+.smell{
+  margin-left: 40px;
+}
+
+.text{
+  margin-top: 20px;
+}
+
+.memo{
+  height: 80px;
+  width: 400px;
+}
+
+
+/*うんち記録*/
+
+
 /*相談一覧*/
 
 .post{
