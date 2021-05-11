@@ -1,12 +1,15 @@
 <%# CSS・・・assets/stylesheets/shared/header.css %>
 <header class = "site-header">
   <div class = "site-title">
-  <%= link_to "Poop management", root_path, class: "title" %>
+    <%= link_to "POOP MANAGEMENT", root_path, class: "title" %>
+   <div class = "icon">
+    <%= image_tag '肉球のアイコン3.png', class: "title-icon" %>
+   </div>
   </div>
   <ul class = "list-right">
       <% if user_signed_in? %>
+      <li><%= link_to '相談する', new_post_path, class: "user-post" %></li>
       <li><%= link_to current_user.nickname, "#", class: "user-nickname" %></li>
-      <li><%= link_to '相談する', new_post_path, class: "user-nickname" %></li>
       <li><%= link_to 'ログアウト', destroy_user_session_path, method: :delete, class: "logout" %></li>
       <% else %>
       <li><%= link_to 'ログイン', new_user_session_path, class: "login" %></li>

@@ -5,51 +5,88 @@
 header{
   height:100px;
   width: 100%;
-  background-color: lightblue;
+  background-color: #f6e5cc;
+  border: solid;
+  border-color: #cbd0d3;
   display: flex;
   justify-content: space-between;
 }
 
 .site-title{
+  font-family: 'Hannotate SC',sans-serif;
   font-size: 50px;
-  margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .title{
   text-decoration: none;
   color: black;
+  margin-top: 20px;
+}
+
+.title-icon{
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .list-right{
+  font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
   list-style: none;
   display: flex;
   justify-content: space-between;
   font-size: 20px;
   margin-top: 40px;
-  margin-right: 40px;
+  margin-right: 50px;
 }
+
+.user-post {
+  text-decoration: none;
+  margin-right: 3vw;
+  color: black;
+  background-color: #f39800;
+  border-radius: 10%;
+  padding: 0.3em 1em;
+  border: solid;
+  border-radius: 50px;
+}
+
 
 .user-nickname {
   text-decoration: none;
   margin-right: 3vw;
   color: black;
-  font-weight: bold;
+  border-radius: 10%;
+  padding: 0.3em 1em;
+  border: solid;
+  border-radius: 5px;
 }
 
 .logout {
   text-decoration: none;
   color: black;
+  padding: 0.3em 1em;
+  border: solid;
+  border-radius: 5px;
 }
 
 .login {
   text-decoration: none;
   margin-right: 3vw;
   color: black;
+  padding: 0.3em 1em;
+  border: solid;
+  border-radius: 5px;
 }
 
 .sign-up {
   text-decoration: none;
   color: black;
   padding-top: 50px;
+  padding: 0.3em 1em;
+  border: solid;
+  border-radius: 5px;
 }
