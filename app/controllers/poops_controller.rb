@@ -22,6 +22,11 @@ class PoopsController < ApplicationController
   def update
     @poop = Poop.find(params[:id])
     @poop.update(poop_params)
+    if @poop.save
+      redirect_to poops_path
+    else
+      render :edit
+    end
   end
 
   private
