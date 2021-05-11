@@ -7,7 +7,12 @@ class PoopsController < ApplicationController
   end
 
   def create
-    Poop.create(poop_params)
+    @poop = Poop.create(poop_params)
+    if @poop.save
+      redirect_to poops_path
+    else
+      redirect_to poops_path
+    end
   end
 
   def edit
