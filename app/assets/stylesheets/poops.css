@@ -61,6 +61,20 @@
   width: 400px;
 }
 
+.submit{
+  margin-top: 20px;
+}
+
+.submit-btn{
+  font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+  font-size: 20px;
+  color: white;
+  background-color: #f39800;
+  border-radius: 10%;
+  border: none;
+  padding: 0.3em 2.7em;
+  border-radius: 50px;
+}
 
 /*うんち記録*/
 
