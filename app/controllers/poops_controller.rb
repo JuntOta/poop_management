@@ -6,6 +6,11 @@ class PoopsController < ApplicationController
     @poop = Poop.new
   end
 
+  # def new
+  #   @poop = Poop.new
+  # end
+
+  # 登録できなかった時のレンダーを設定する
   def create
     @poop = Poop.create(poop_params)
     if @poop.save
@@ -21,12 +26,17 @@ class PoopsController < ApplicationController
 
   def update
     @poop = Poop.find(params[:id])
-    @poop.update(poop_params)
-    if @poop.save
+    if @poop.update(poop_params)
       redirect_to poops_path
     else
       render :edit
     end
+  end
+
+  def destroy
+    @poop = Poop.find(params[:id])
+    @poop.destroy
+    redirect_to poops_path
   end
 
   private
