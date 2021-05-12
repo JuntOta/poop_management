@@ -11,18 +11,18 @@
   display: flex;
 }
 
-.form-tag{
+.form_tag{
   margin-top: 5px;
 }
 
-.info-icon{
+.info_icon{
   width: 35px;
   height: 35px;
   margin-left: 15px;
   margin-bottom: 10px;
 }
 
-.time-box{
+.time_box{
   height: 30px;
   width: 100px;
   font-size: 20px;
@@ -33,7 +33,7 @@
   margin-top: 20px;
 }
 
-.pulldown-box{
+.pulldown_box{
   height: 30px;
   width: 200px;
   font-size: 20px;
@@ -67,7 +67,7 @@
   margin-top: 20px;
 }
 
-.submit-btn{
+.submit_btn{
   font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
   font-size: 20px;
   color: white;
@@ -78,7 +78,7 @@
   border-radius: 50px;
 }
 
-.submit-btn:hover{
+.submit_btn:hover{
   background-color: #f2ab30;
 }
 
@@ -91,46 +91,46 @@
   font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
   border-bottom: 1px solid #c0c0c0;;
   margin: 0px 300px 0px 300px;
-  padding: 30px 10px;
+  padding: 30px 10px 10px 10px;
 }
 
-.post-user-name{
+.post_user_name{
   color: #f39800;
   font-size: 15px;
   text-decoration: none;
 }
 
-.post-user-name:hover{
+.post_user_name:hover{
   text-decoration: underline;
 }
 
-.post-show{
+.post_show{
   text-decoration: none;
 }
 
-.post-date{
+.post_date{
   font-size: 15px;
   color: gray;
   margin-top: 5px;
 }
 
-.post-title{
+.post_title{
   font-size: 20px;
   color: black;
   margin-top: 20px;
 }
 
-.post-title:hover{
+.post_title:hover{
   text-decoration: underline;
 }
 
-.post-text{
+.post_text{
   font-size: 15px;
   color: gray;
   margin-top: 10px;
 }
 
-.post-text:hover{
+.post_text:hover{
   text-decoration: underline;
 }
 

@@ -3,34 +3,34 @@
 
 <main class="main">
   <div class="inner">
-    <div class="post__wrapper">
-      <%= link_to "by " + @post.user.nickname, "/users/#{@post.user.id}", class: :post__user %>
+    <div class="post_wrapper">
+      <%= link_to "by " + @post.user.nickname, "/users/#{@post.user.id}", class: :post_user %>
       <%# 投稿者とログインしているユーザーが同じであれば以下を表示する %>
        <% if user_signed_in? && current_user.id == @post.user_id %>
-        <div class="post__manage">
-          <%= link_to "編集する", edit_post_path(@post), class: :post__btn %>
-          <%= link_to "削除する", post_path(@post.id), class: :post__btn, method: :delete %>
+        <div class="post_manage">
+          <%= link_to "編集する", edit_post_path(@post), class: :post_btn %>
+          <%= link_to "削除する", post_path(@post.id), class: :post_btn, method: :delete %>
         </div>
        <% end %>
       <%# // 投稿者とログインしているユーザーが同じであれば上記を表示する %>
-      <div class="post__image">
+      <div class="post_image">
         <%= image_tag @post.image if @post.image.attached? %>
       </div>
-      <div class="post__body">
-        <div class="post__detail">
-          <p class="detail__title">タイトル</p>
-          <p class="detail__message">
+      <div class="post_body">
+        <div class="post_detail">
+          <p class="detail_title">タイトル</p>
+          <p class="detail_message">
             <%= @post.title %>
           </p>
         </div>
-        <div class="post__detail">
-          <p class="detail__title">相談内容</p>
-          <p class="detail__message">
+        <div class="post_detail">
+          <p class="detail_title">相談内容</p>
+          <p class="detail_message">
             <%= @post.text %>
           </p>
         </div>
       </div>
-      <div class="post__comments">
+      <div class="post_comments">
         <% if user_signed_in? %>
           <%= form_with model: [@post, @comment], local: true do |f|%>
             <div class="field">
@@ -38,7 +38,7 @@
                <%= f.text_field :text, id:"comment_text" %>
             </div>
             <div class="actions">
-               <%= f.submit "送信する", class: :form__btn  %>
+               <%= f.submit "送信する", class: :form_btn  %>
             </div>
           <% end %> 
         <% end %>
