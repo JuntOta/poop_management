@@ -78,6 +78,10 @@
   border-radius: 50px;
 }
 
+.submit-btn:hover{
+  background-color: #f2ab30;
+}
+
 /*うんち記録*/
 
 
@@ -96,6 +100,10 @@
   text-decoration: none;
 }
 
+.post-user-name:hover{
+  text-decoration: underline;
+}
+
 .post-show{
   text-decoration: none;
 }
@@ -112,10 +120,18 @@
   margin-top: 20px;
 }
 
+.post-title:hover{
+  text-decoration: underline;
+}
+
 .post-text{
   font-size: 15px;
   color: gray;
   margin-top: 10px;
+}
+
+.post-text:hover{
+  text-decoration: underline;
 }
 
 /*相談一覧*/
