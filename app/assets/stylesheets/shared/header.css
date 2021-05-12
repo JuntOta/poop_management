@@ -99,6 +99,10 @@ header{
   background-color: #f39800;
 }
 
+.login:hover{
+  background-color: #f2ab30;
+}
+
 .sign-up {
   text-decoration: none;
   color: white;
@@ -107,4 +111,8 @@ header{
   /* border: solid 2px; */
   border-radius: 5px;
   background-color: #f39800;
+}
+
+.sign-up:hover{
+  background-color: #f2ab30;
 }
