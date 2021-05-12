@@ -25,6 +25,7 @@
 .time-box{
   height: 30px;
   width: 100px;
+  font-size: 20px;
 }
 
 .pulldown{
@@ -35,6 +36,7 @@
 .pulldown-box{
   height: 30px;
   width: 200px;
+  font-size: 20px;
 }
 
 .shape{
