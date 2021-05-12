@@ -84,19 +84,32 @@
 /*相談一覧*/
 
 .post{
-  border: 1px solid;
-  width: 40%;
-  margin-top: 30px;
-  margin-left: 30px;
+  font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+  border-bottom: 1px solid #c0c0c0;;
+  margin: 0px 300px 0px 300px;
+  padding: 30px 10px;
+}
+
+.post-user-name{
+  color: #f39800;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.post-show{
+  text-decoration: none;
 }
 
 .post-date{
+  font-size: 15px;
   color: gray;
+  margin-top: 5px;
 }
 
 .post-title{
   font-size: 20px;
-  color: gray;
+  color: black;
+  margin-top: 10px;
 }
 
 /*相談一覧*/
