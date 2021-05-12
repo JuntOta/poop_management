@@ -3,33 +3,33 @@
 <%= form_with model: @poop, local: true  do |form| %>
 
   <div class="time">
-    <div class="form-tag">時間</div>
+    <div class="form_tag">時間</div>
     <%= form.datetime_select :start_time %>
   </div>
 
   <div class="content">
-    <div class="form-tag">メモ</div>
+    <div class="form_tag">メモ</div>
     <%= form.text_field :text %>
   </div>
   
   <div class="color">
-    <div class="form-tag">色</div>
-    <%= form.collection_select(:color_id, Color.all, :id, :name, {}, {class:"genre-select"}) %>
+    <div class="form_tag">色</div>
+    <%= form.collection_select(:color_id, Color.all, :id, :name, {}, {class:"genre_select"}) %>
   </div>
 
   <div class="amount">
-    <div class="form-tag">量</div>
-    <%= form.collection_select(:amount_id, Amount.all, :id, :name, {}, {class:"genre-select"}) %>
+    <div class="form_tag">量</div>
+    <%= form.collection_select(:amount_id, Amount.all, :id, :name, {}, {class:"genre_select"}) %>
   </div>
 
   <div class="shape">
-    <div class="form-tag">形</div>
-    <%= form.collection_select(:shape_id, Shape.all, :id, :name, {}, {class:"genre-select"}) %>
+    <div class="form_tag">形</div>
+    <%= form.collection_select(:shape_id, Shape.all, :id, :name, {}, {class:"genre_select"}) %>
   </div>
 
   <div class="smell">
-    <div class="form-tag">におい</div>
-    <%= form.collection_select(:smell_id, Smell.all, :id, :name, {}, {class:"genre-select"}) %>
+    <div class="form_tag">におい</div>
+    <%= form.collection_select(:smell_id, Smell.all, :id, :name, {}, {class:"genre_select"}) %>
   </div>
 
   <div class="submit">
