@@ -5,6 +5,8 @@
 .page-heading{
   font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
   font-size: 20px;
+  border-bottom: 1px solid #c0c0c0;
+  margin-right: 50%;
 }
 
 .field{
@@ -13,19 +15,22 @@
   margin: 20px 0;
 }
 
-.post_title{
+.form_title{
+  font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
   height: 30px;
   width: 200px;
   margin-top: 10px;
+  font-size: 15px;
 }
 
-.post_text{
+.form_text{
   height: 200px;
   width: 700px;
   margin-top: 10px;
+  font-size: 15px;
 }
 
-.post_image{
+.form_image{
   margin-top: 10px;
 }
 
@@ -42,4 +47,8 @@
   border: none;
   padding: 0.3em 2.7em;
   border-radius: 50px;
+}
+
+.form__btn:hover{
+  background-color: #f2ab30;
 }
