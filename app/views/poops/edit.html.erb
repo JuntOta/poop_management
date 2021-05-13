@@ -1,42 +1,60 @@
 <%= render "shared/header" %>
 
-<%= form_with model: @poop, local: true  do |form| %>
+<%= form_with model: @poop, class: 'infomations', local: true  do |form| %>
 
   <div class="time">
-    <div class="form_tag">時間</div>
-    <%= form.datetime_select :start_time %>
-  </div>
-
-  <div class="content">
-    <div class="form_tag">メモ</div>
-    <%= form.text_field :text %>
+    <div class = "info">
+      <div class="form_tag">うんち時間</div>
+      <%= image_tag 'トイレットペーパーアイコン4.png', class: "info_icon" %>
+    </div>
+    <%= form.datetime_select :start_time, {}, {class:"time_box"} %>
   </div>
   
+  <div class = "pulldown">
+  <div class="shape">
+   <div class = "info">
+      <div class="form_tag">かたち</div>
+      <%= image_tag 'バナナアイコン.png', class: "info_icon" %>
+    </div>
+    <%= form.collection_select(:shape_id, Shape.all, :id, :name, {}, {class:"pulldown_box"}) %>
+  </div>
+
   <div class="color">
-    <div class="form_tag">色</div>
-    <%= form.collection_select(:color_id, Color.all, :id, :name, {}, {class:"genre_select"}) %>
+    <div class = "info">
+      <div class="form_tag">色</div>
+      <%= image_tag 'パレットのアイコン9.png', class: "info_icon" %>
+    </div>
+    <%= form.collection_select(:color_id, Color.all, :id, :name, {}, {class:"pulldown_box"}) %>
   </div>
 
   <div class="amount">
-    <div class="form_tag">量</div>
-    <%= form.collection_select(:amount_id, Amount.all, :id, :name, {}, {class:"genre_select"}) %>
-  </div>
-
-  <div class="shape">
-    <div class="form_tag">形</div>
-    <%= form.collection_select(:shape_id, Shape.all, :id, :name, {}, {class:"genre_select"}) %>
+    <div class = "info">
+      <div class="form_tag">量</div>
+      <%= image_tag '計量カップ.png', class: "info_icon" %>
+    </div>
+    <%= form.collection_select(:amount_id, Amount.all, :id, :name, {}, {class:"pulldown_box"}) %>
   </div>
 
   <div class="smell">
-    <div class="form_tag">におい</div>
-    <%= form.collection_select(:smell_id, Smell.all, :id, :name, {}, {class:"genre_select"}) %>
+    <div class = "info">
+      <div class="form_tag">におい</div>
+      <%= image_tag '鼻のフリーアイコン1.png', class: "info_icon" %>
+    </div>
+    <%= form.collection_select(:smell_id, Smell.all, :id, :name, {}, {class:"pulldown_box"}) %>
+  </div>
+  </div>
+
+  <div class="text">
+    <div class = "info">
+      <div class="form_tag">メモ (任意)</div>
+      <%= image_tag 'メモ.png', class: "info_icon" %>
+    </div>
+    <%= form.text_field :text, class:"memo", placeholder:"気になったことをメモしておこう！" %>
   </div>
 
   <div class="submit">
-    <%= form.submit %>
+    <%= form.submit "変更する", class:"submit_btn" %>
+    <%= link_to '消去する', poop_path(@poop.id), method: :delete, class:"delete_btn",　data: { confirm: '一度削除すると元に戻せません！！' } %>
   </div>
 
 <% end %>
-
-<%= link_to '消去', poop_path(@poop.id), method: :delete, data: { confirm: '本当に?' } %>
-<%= link_to '戻る', poops_path %>
