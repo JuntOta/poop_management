@@ -4,34 +4,34 @@
   <div class="inner">
     <div class="user__wrapper">
       <h2 class="page-heading">
-        <%= "@user.name" + "さんの情報" %>
+        <%= @user.nickname + "さんの情報" %>
       </h2>
       <table class="table">
         <tbody>
           <tr>
             <th class="table__col1">名前</th>
-            <td class="table__col2"><%= "@user.name" %></td>
+            <td class="table__col2"><%= @user.nickname %></td>
           </tr>
           <tr>
             <th class="table__col1">動物の種類</th>
-            <td class="table__col2"><%= "@user.profile" %></td>
+            <td class="table__col2"><%= @user.animal %></td>
           </tr>
           <tr>
             <th class="table__col1">誕生日</th>
-            <td class="table__col2"><%= "@user.occupation" %></td>
+            <td class="table__col2"><%= @user.birthday %></td>
           </tr>
           <tr>
             <th class="table__col1">メールアドレス</th>
-            <td class="table__col2"><%= "@user.position" %></td>
+            <td class="table__col2"><%= @user.email %></td>
           </tr>
         </tbody>
       </table>
       <h2 class="page-heading">
-        <%= "@user.name" + "さんのプロトタイプ"%>
+        <%= @user.nickname + "さんの相談一覧"%>
       </h2>
       <div class="user__card">
         <%# 部分テンプレートでそのユーザーが投稿したプロトタイプ投稿一覧を表示する %>
-      <%# <%= render partial: 'prototypes/prototype', collection: @user.prototypes %>
+      <%# <%= render partial: 'posts/_form', collection: @user.posts %> %>
       </div>
     </div>
   </div>

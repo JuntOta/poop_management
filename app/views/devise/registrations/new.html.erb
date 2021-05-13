@@ -1,9 +1,18 @@
 <%# CSS・・・assets/stylesheets/user/registration.css %>
+<header class = "site-header">
+  <div class = "site-title">
+    <%= link_to "POOP MANAGEMENT", root_path, class: "title" %>
+   <div class = "icon">
+    <%= image_tag '肉球のアイコン3.png', class: "title-icon" %>
+   </div>
+  </div>
+</header>
+
 <%= form_with model: @user, url: user_registration_path, class: 'registration-main', local: true do |f| %>
 <div class='form-wrap'>
   <div class='form-header'>
     <h1 class='form-header-text'>
-      新規情報入力
+      登録情報入力
     </h1>
   </div>
 
@@ -64,7 +73,7 @@
     </div>
   </div>
   <div class='register-btn'>
-    <%= f.submit "会員登録" ,class:"register-red-btn" %>
+    <%= f.submit "会員登録" ,class:"register-new-btn" %>
   </div>
 </div>
 <% end %>
