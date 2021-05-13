@@ -9,7 +9,7 @@
        <% if user_signed_in? && current_user.id == @post.user_id %>
         <div class="post_manage">
           <%= link_to "編集する", edit_post_path(@post), class: :post_btn %>
-          <%= link_to "削除する", post_path(@post.id), class: :post_btn, method: :delete %>
+          <%= link_to "削除する", post_path(@post.id), class: :post_btn, method: :delete, data: { confirm: '一度削除すると元に戻せません！！' } %>
         </div>
        <% end %>
       <%# // 投稿者とログインしているユーザーが同じであれば上記を表示する %>
