@@ -82,19 +82,28 @@
   background-color: #f2ab30;
 }
 
+.calendar_stamp{
+  display: flex;
+}
+
+.calendar_image{
+  height: 50px;
+  margin-left: 15px;
+}
+
 /*うんち記録*/
 
 
 /*相談一覧*/
 
 .post{
-  font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
   border-bottom: 1px solid #c0c0c0;;
   margin: 0px 300px 0px 300px;
   padding: 30px 10px 10px 10px;
 }
 
 .post_user_name{
+  font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
   color: #f39800;
   font-size: 15px;
   text-decoration: none;
@@ -109,12 +118,14 @@
 }
 
 .post_date{
+  font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
   font-size: 15px;
   color: gray;
   margin-top: 5px;
 }
 
 .post_title{
+  font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
   font-size: 20px;
   color: black;
   margin-top: 20px;

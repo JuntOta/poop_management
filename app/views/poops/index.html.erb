@@ -70,22 +70,15 @@
 <%= month_calendar events: @poops do |date, poops| %>
   <%= date.day %>
 
-  <% poops.each do |poop| %>
-    <% if user_signed_in? && poop.user_id == current_user.id %>
-    <div>
-      <%= link_to poop.shape[:name], edit_poop_path(poop) %>
-    </div>
-    <div>
-      <%= link_to poop.color[:name], edit_poop_path(poop) %>
-    </div>
-    <div>
-      <%= link_to poop.amount[:name], edit_poop_path(poop) %>
-    </div>
-    <div>
-      <%= link_to poop.smell[:name], edit_poop_path(poop) %>
-    </div>
+  <div class = "calendar_stamp">
+    <% poops.each do |poop| %>
+      <% if user_signed_in? && poop.user_id == current_user.id %>
+        <div>
+          <%= link_to image_tag('スタンプ.png', class: "calendar_image"), edit_poop_path(poop) %>
+        </div>
+      <% end %>
     <% end %>
-  <% end %>
+  </div>
 <% end %>
 </div>
 </div>

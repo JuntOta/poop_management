@@ -1,6 +1,6 @@
 .post_wrapper{
   min-height: calc(100vh - 161px);
-  font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+  /* font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif; */
 }
 
 .post_image{
@@ -12,17 +12,27 @@
 .post_detail{
   display: flex;
   flex-direction: column;
-  margin-bottom: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
+
 .detail_title{
+  font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
   font-size: 20px;
   font-weight: bold;
+  margin-top: 10px;
 }
+
+.detail_text{
+  margin-top: 10px;
+  font-size: 15px;
+}
+
 .post_manage{
   display: flex;
-  justify-content: center;
-  padding-top: 16px;
+  float: right;
 }
+
 .post_btn{
   display: block;
   padding: 0.4em 1.6em;
