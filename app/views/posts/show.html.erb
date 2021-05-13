@@ -4,7 +4,7 @@
 <main class="main">
   <div class="inner">
     <div class="post_wrapper">
-      <%= link_to "by " + @post.user.nickname, "/users/#{@post.user.id}", class: :post_user %>
+
       <%# 投稿者とログインしているユーザーが同じであれば以下を表示する %>
        <% if user_signed_in? && current_user.id == @post.user_id %>
         <div class="post_manage">
@@ -13,8 +13,14 @@
         </div>
        <% end %>
       <%# // 投稿者とログインしているユーザーが同じであれば上記を表示する %>
+      <div class = "post_user">
+      <%= link_to @post.user.nickname + "さん", "/users/#{@post.user.id}", class: :post_user_name %>
+      </div>
+      <div class = "post_date">
+      投稿日時：<%= @post.created_at.strftime("%Y年 %m月 %d日 %H:%M") %>
+      </div>
       <div class="post_image">
-        <%= image_tag @post.image if @post.image.attached? %>
+        <%= image_tag @post.image.variant(resize: '300x300') if @post.image.attached? %>
       </div>
       <div class="post_body">
         <div class="post_detail">

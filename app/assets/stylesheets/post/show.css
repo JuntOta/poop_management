@@ -1,26 +1,16 @@
 .post_wrapper{
   min-height: calc(100vh - 161px);
+  font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
 }
-.post_hedding{
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-}
-.post_user{
-  display: block;
-  font-size: 16px;
-  color: #999;
-  text-align: center;
-  text-decoration: underline;
-}
+
 .post_image{
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
-  padding: 16px 0;
+  text-align: center;
 }
+
 .post_detail{
   display: flex;
-  /* align-items: center; */
   flex-direction: column;
   margin-bottom: 8px;
 }

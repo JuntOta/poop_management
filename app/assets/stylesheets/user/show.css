@@ -7,8 +7,7 @@
 /*相談新規投稿画面でも使用*/
 
 .inner{
-  padding-top: 50px;
-  padding-left: 50px;
+  padding: 50px 300px 0 300px;
 }
 .user__wrapper{
   min-height: calc(100vh - 161px);
