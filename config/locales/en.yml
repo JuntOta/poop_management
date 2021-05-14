@@ -37,6 +37,24 @@ en:
     新規登録: "Sing up"
     ログイン: "log in"
     ログアウト: "Log out"
+  devise:
+    registrations:
+      new: 
+        登録情報入力: "Sign up"
+        ニックネーム: "Nickname"
+        動物の種類: "What animal?"
+        メールアドレス: "Email"
+        パスワード: "Password"
+        パスワード(確認): "Password confirmation"
+        生年月日: "Date of birth"
+        必須: "required"
+        ※英字と数字の両方を含めて設定してください: "※Include both letters and numbers"
+    sessions:
+      new:
+        会員情報入力: "Log in"
+        メールアドレス: "Email"
+        パスワード: "Password"
+        必須: "required"
   poops:
    index:
     うんち時間: "Poop time"
