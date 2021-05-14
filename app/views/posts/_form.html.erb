@@ -1,16 +1,16 @@
        <%= form_with(model: post, local: true) do |f|%>
         <div class="field">
-          <%= f.label :title, "タイトル" %><br />
+          <%= f.label :title, t('.タイトル') %><br />
           <%= f.text_field :title, class: :form_title, placeholder:"必須", id:"post_title" %>
         </div>
 
         <div class="field">
-            <%= f.label :text, "内容" %><br />
+            <%= f.label :text, t('.内容') %><br />
            <%= f.text_area :text, class: :form_text, placeholder:"必須", id:"post_text" %>
         </div>
 
         <div class="field">
-            <%= f.label :image, "画像" %><br />
+            <%= f.label :image, t('.画像') %><br />
            <%= f.file_field :image, class: :form_image, id:"post_image" %>
         </div>
 

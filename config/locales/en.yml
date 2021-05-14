@@ -30,4 +30,27 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  shared:
+   header:
+    POOP MANAGEMENT: "UNCHI MANAGEMENT"
+    相談する: "consult?"
+    新規登録: "Sing up"
+    ログイン: "log in"
+    ログアウト: "Log out"
+  poops:
+   index:
+    うんち時間: "Poop time"
+    かたち: "shape"
+    色: "color"
+    量: "amount"
+    におい: "smell"
+    メモ (任意): "memo (optional)"
+  posts:
+   form:
+    タイトル: "Title"
+    内容: "Text"
+    画像: "Image"
+   post:
+    投稿日時：: "Post time："
+   new:
+    相 談 の 投 稿: "Post a consultation"

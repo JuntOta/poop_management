@@ -8,7 +8,7 @@
 
   <div class="time">
     <div class = "info">
-      <div class="form_tag">うんち時間</div>
+      <div class="form_tag"><%= t '.うんち時間' %></div>
       <%= image_tag 'トイレットペーパーアイコン4.png', class: "info_icon" %>
     </div>
     <%= form.datetime_select :start_time, {}, {class:"time_box"} %>
@@ -17,7 +17,7 @@
   <div class = "pulldown">
   <div class="shape">
    <div class = "info">
-      <div class="form_tag">かたち</div>
+      <div class="form_tag"><%= t '.かたち' %></div>
       <%= image_tag 'バナナアイコン.png', class: "info_icon" %>
     </div>
     <%= form.collection_select(:shape_id, Shape.all, :id, :name, {}, {class:"pulldown_box"}) %>
@@ -25,7 +25,7 @@
 
   <div class="color">
     <div class = "info">
-      <div class="form_tag">色</div>
+      <div class="form_tag"><%= t '.色' %></div>
       <%= image_tag 'パレットのアイコン9.png', class: "info_icon" %>
     </div>
     <%= form.collection_select(:color_id, Color.all, :id, :name, {}, {class:"pulldown_box"}) %>
@@ -33,7 +33,7 @@
 
   <div class="amount">
     <div class = "info">
-      <div class="form_tag">量</div>
+      <div class="form_tag"><%= t '.量' %></div>
       <%= image_tag '計量カップ.png', class: "info_icon" %>
     </div>
     <%= form.collection_select(:amount_id, Amount.all, :id, :name, {}, {class:"pulldown_box"}) %>
@@ -41,7 +41,7 @@
 
   <div class="smell">
     <div class = "info">
-      <div class="form_tag">におい</div>
+      <div class="form_tag"><%= t '.におい' %></div>
       <%= image_tag '鼻のフリーアイコン1.png', class: "info_icon" %>
     </div>
     <%= form.collection_select(:smell_id, Smell.all, :id, :name, {}, {class:"pulldown_box"}) %>
@@ -50,7 +50,7 @@
 
   <div class="text">
     <div class = "info">
-      <div class="form_tag">メモ (任意)</div>
+      <div class="form_tag"><%= t '.メモ (任意)' %></div>
       <%= image_tag 'メモ.png', class: "info_icon" %>
     </div>
     <%= form.text_field :text, class:"memo", placeholder:"気になったことをメモしておこう！" %>
