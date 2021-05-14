@@ -6,9 +6,6 @@
 }
 /*相談新規投稿画面でも使用*/
 
-.inner{
-  padding: 50px 300px 0 300px;
-}
 .user__wrapper{
   min-height: calc(100vh - 161px);
 }
@@ -16,7 +13,9 @@
   border-collapse: collapse;
   margin-bottom: 32px;
   width: 50%;
+  margin: 0 auto;
 }
+
 .table__col1{
   text-align: left;
   font-weight: bold;
@@ -34,7 +33,5 @@
   padding: 16px 8px;
 }
 .user__card {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
 }

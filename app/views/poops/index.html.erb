@@ -1,4 +1,4 @@
-<%= render "shared/header" %>
+<%= render partial: "shared/header" %>
 
 <%# うんち記録 %>
 <p id="notice"><%= notice %></p>
@@ -86,22 +86,7 @@
 <%# うんち記録 %>
 
 <%# 相談投稿一覧 %>
-<% @posts.each do |post| %>
-  <div class = "post">
-    <div class = "post_name">
-      <%= link_to post.user.nickname + "さん", user_path(post.user.id), class:"post_user_name" %>
-    </div>
-   <%= link_to post_path(post.id), class:"post_show" do %>
-    <div class = "post_date">
-      投稿日時：<%= post.created_at.strftime("%Y年 %m月 %d日 %H:%M") %>
-    </div>
-    <div class = "post_title">
-      <%= post.title %>
-    </div>
-    <div class = "post_text">
-      <%= truncate(post.text, length: 25, omission: "•••") %>
-    </div>
-   <% end %>
-  </div>
-<% end %>
+<%# <% @posts.each do |post| %>
+  <%= render partial: "posts/post", collection: @posts %>
+<%# <% end %>
 <%# 相談投稿一覧 %>
