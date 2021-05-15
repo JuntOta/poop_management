@@ -15,7 +15,7 @@
       <li><%= link_to t('.ログイン'), new_user_session_path, class: "login" %></li>
       <li><%= link_to t('.新規登録'), new_user_registration_path, class: "sign-up"%></li>
       <% end %>
-      <li>
+      <li class = "translation">
         <% if I18n.locale.to_s == "en" %>
          <%= link_to('日本語', :locale => 'ja') %>
         <% else %>

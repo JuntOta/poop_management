@@ -117,3 +117,11 @@
 .register-new-btn:hover{
   background-color: #f2ab30;
 }
+
+.signup_translation{
+  font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+  list-style: none;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-right: 20px;
+}
