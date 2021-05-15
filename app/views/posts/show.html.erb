@@ -8,16 +8,16 @@
       <%# 投稿者とログインしているユーザーが同じであれば以下を表示する %>
        <% if user_signed_in? && current_user.id == @post.user_id %>
         <div class="post_manage">
-          <%= link_to "編集する", edit_post_path(@post), class: :post_btn %>
-          <%= link_to "削除する", post_path(@post.id), class: :post_btn, method: :delete, data: { confirm: '一度削除すると元に戻せません！！' } %>
+          <%= link_to t('.編集する'), edit_post_path(@post), class: :post_btn %>
+          <%= link_to t('.削除する'), post_path(@post.id), class: :post_btn, method: :delete, data: { confirm: '一度削除すると元に戻せません！！' } %>
         </div>
        <% end %>
       <%# // 投稿者とログインしているユーザーが同じであれば上記を表示する %>
       <div class = "post_user">
-      <%= link_to @post.user.nickname + "さん", "/users/#{@post.user.id}", class: :post_user_name %>
+      <%= link_to @post.user.nickname, "/users/#{@post.user.id}", class: :post_user_name %>
       </div>
       <div class = "post_date">
-      投稿日時：<%= @post.created_at.strftime("%Y年 %m月 %d日 %H:%M") %>
+      <%= t '.投稿日時：' %><%= @post.created_at.strftime("%Y年 %m月 %d日 %H:%M") %>
       </div>
       <div class="post_image">
         <%= image_tag @post.image.variant(resize: '300x300') if @post.image.attached? %>
@@ -40,7 +40,7 @@
         <% if user_signed_in? %>
           <%= form_with model: [@post, @comment], local: true do |f|%>
             <div class="field">
-               <%= f.label :comment, "コメント" %><br />
+               <%= f.label :comment, t('.コメント') %><br />
                <%= f.text_field :text, id:"comment_text" %>
             </div>
             <div class="actions">
@@ -49,14 +49,14 @@
           <% end %> 
         <% end %>
         <ul class="comments_lists">
-          <%# 投稿に紐づくコメントを一覧する処理を記述する %>
+          <%# 投稿に紐づくコメント一覧 %>
           <% @comments.each do |comment| %>
             <li class="comments_list">
               <%= comment.text %>
               <%= link_to comment.user.nickname, "/users/#{comment.user.id}", class: :comment_user %>
             </li>
           <% end %>
-          <%# // 投稿に紐づくコメントを一覧する処理を記述する %>
+          <%# // 投稿に紐づくコメント一覧 %>
         </ul>
       </div>
     </div>

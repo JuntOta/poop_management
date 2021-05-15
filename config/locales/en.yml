@@ -55,6 +55,14 @@ en:
         メールアドレス: "Email"
         パスワード: "Password"
         必須: "required"
+  users:
+    show:
+      さんの情報: " Information"
+      さんの相談一覧: " Posts list"
+      ニックネーム: "Nickname"
+      動物の種類: "animal"
+      生年月日: "Date of birth"
+      メールアドレス: "Email"
   poops:
    index:
     うんち時間: "Poop time"
@@ -63,6 +71,13 @@ en:
     量: "amount"
     におい: "smell"
     メモ (任意): "memo (optional)"
+   edit:
+     うんち時間: "Poop time"
+     かたち: "shape"
+     色: "color"
+     量: "amount"
+     におい: "smell"
+     メモ (任意): "memo (optional)"
   posts:
    form:
     タイトル: "Title"
@@ -72,3 +87,10 @@ en:
     投稿日時：: "Post time："
    new:
     相 談 の 投 稿: "Post a consultation"
+   edit:
+    相 談 内 容 編 集: "Edit post"
+   show:
+    編集する: "edit"
+    削除する: "delete"
+    投稿日時：: "Post time："
+    コメント: "comment"
