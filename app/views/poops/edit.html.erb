@@ -53,8 +53,8 @@
   </div>
 
   <div class="submit">
-    <%= form.submit "変更する", class:"submit_btn" %>
-    <%= link_to '消去する', poop_path(@poop.id), method: :delete, class:"delete_btn", data: { confirm: '一度削除すると元に戻せません！！' } %>
+    <%= form.submit class:"submit_btn" %>
+    <%= link_to t('.削除する'), poop_path(@poop.id), method: :delete, class:"delete_btn", data: { confirm: '一度削除すると元に戻せません！！' } %>
   </div>
 
 <% end %>

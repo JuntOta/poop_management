@@ -60,24 +60,25 @@ en:
       さんの情報: " Information"
       さんの相談一覧: " Posts list"
       ニックネーム: "Nickname"
-      動物の種類: "animal"
+      動物の種類: "Animal"
       生年月日: "Date of birth"
       メールアドレス: "Email"
   poops:
    index:
     うんち時間: "Poop time"
-    かたち: "shape"
-    色: "color"
-    量: "amount"
-    におい: "smell"
-    メモ (任意): "memo (optional)"
+    かたち: "Shape"
+    色: "Color"
+    量: "Amount"
+    におい: "Smell"
+    メモ (任意): "Memo (optional)"
    edit:
      うんち時間: "Poop time"
-     かたち: "shape"
-     色: "color"
-     量: "amount"
-     におい: "smell"
-     メモ (任意): "memo (optional)"
+     かたち: "Shape"
+     色: "Color"
+     量: "Amount"
+     におい: "Smell"
+     メモ (任意): "Memo (optional)"
+     削除する: "Delete"
   posts:
    form:
     タイトル: "Title"
@@ -93,4 +94,8 @@ en:
     編集する: "edit"
     削除する: "delete"
     投稿日時：: "Post time："
-    コメント: "comment"
+    コメント: "Comment"
+  helpers:
+    submit:
+      create: Submit
+      update: Update

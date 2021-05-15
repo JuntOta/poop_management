@@ -1,7 +1,7 @@
 
 <div class = "post">
     <div class = "post_name">
-      <%= link_to post.user.nickname + "さん", user_path(post.user.id), class:"post_user_name" %>
+      <%= link_to post.user.nickname, user_path(post.user.id), class:"post_user_name" %>
     </div>
    <%= link_to post_path(post.id), class:"post_show" do %>
     <div class = "post_date">
