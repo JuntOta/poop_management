@@ -1,10 +1,10 @@
 .login-btn {
-  width: 30%;
+  text-align: center;
   margin: 0 auto;
   margin-top: 50px;
 }
 
-.login-red-btn {
+.login-orange-btn {
   font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
   font-size: 20px;
   color: white;
@@ -17,7 +17,7 @@
 
 .login-flash-message {
   text-align: center;
-  color: red;
+  color: #f39800;
 }
 
 .login_translation{
