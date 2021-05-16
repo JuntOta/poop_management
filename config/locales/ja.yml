@@ -3,3 +3,10 @@ ja:
     submit:
       create: 記録
       update: 保存する
+
+  activerecord:
+    attributes:
+      user:
+        nickname: ニックネーム
+        animal: 動物の種類
+        birthday: 生年月日

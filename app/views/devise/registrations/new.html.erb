@@ -6,14 +6,12 @@
     <%= image_tag '肉球のアイコン3.png', class: "title-icon" %>
    </div>
   </div>
-
-  <%# <%= render 'layouts/error_messages', model: f.object %>
-
+  
   <li class = "signup_translation">
    <% if I18n.locale.to_s == "en" %>
-     <%= link_to('日本語', :locale => 'ja') %>
+     <%= link_to '日本語',  "/ja/users/sign_up" %>
    <% else %>
-     <%= link_to('English', :locale => 'en') %>
+     <%= link_to 'English', "/en/users/sign_up" %>
    <% end %>
   </li>
 </header>
@@ -26,6 +24,11 @@
     </h1>
   </div>
 
+  <div class="error_messages">
+  <%# エラー分の表示 %>
+  <%= render 'layouts/error_messages', model: f.object %>
+  <%# エラー分の表示 %>
+  </div>
 
   <div class="form-group">
     <div class='form-text-wrap'>

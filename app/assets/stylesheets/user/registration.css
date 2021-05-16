@@ -6,7 +6,12 @@
   justify-content: center;
 }
 
-/* form-wrapは商品購入画面でも使用しています */
+.error_messages{
+  color: #f39800;
+  width: 30%;
+  margin: 0 auto;
+}
+
 .form-wrap {
   width: 80%;
   background-color: white;
