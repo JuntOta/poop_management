@@ -1,0 +1,22 @@
+.footer {
+  width: 100vw;
+  height: 70px;
+  color: #FFF;
+  background-color: #272727;
+  display: flex;
+  align-items: center;
+}
+
+.footer-contents {
+}
+
+
+.furima-details {
+  margin-left: 4vw;
+}
+
+.footer-link {
+  color: #FFF;
+  font-size: 12px;
+  line-height: 30px;
+}
