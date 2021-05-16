@@ -1,18 +1,27 @@
-.purchase-btn {
-  width: 120px;
-  background: #3ccace;
+.top-btn {
+  width: 50px;
+  height: 50px;
+  background: #c0c0c0;
   text-align: center;
   border-radius: 4%;
   bottom: 32px;
   right: 32px;
   position: fixed;
-  padding: 15px;
+  text-decoration: none;
 }
 
-.purchase-btn-text {
-  color: #fff;
+.top-btn:hover{
+  background-color: #d3d3d3;
+}
+
+.top-btn-text {
+  color: black;
   display: block;
-  font-size: 18px;
+  font-size: 15px;
   text-decoration: none;
-  margin-bottom: 5px;
+}
+
+.top-btn-icon {
+  width: 50%;
+  height: 50%;
 }
