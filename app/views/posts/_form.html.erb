@@ -1,4 +1,11 @@
        <%= form_with(model: post, local: true) do |f|%>
+
+       <div class="post_error">
+        <%# エラー分の表示 %>
+        <%= render 'layouts/error_messages', model: f.object %>
+        <%# エラー分の表示 %>
+        </div>
+
         <div class="field">
           <%= f.label :title, t('.タイトル') %><br />
           <%= f.text_field :title, class: :form_title, placeholder:"必須", id:"post_title" %>

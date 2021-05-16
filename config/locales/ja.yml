@@ -10,3 +10,7 @@ ja:
         nickname: ニックネーム
         animal: 動物の種類
         birthday: 生年月日
+
+      post:
+        title: タイトル
+        text: 内容
