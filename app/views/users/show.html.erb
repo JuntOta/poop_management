@@ -29,7 +29,7 @@
       <h2 class="user_heading">
         <%= @user.nickname %><%= t '.さんの相談一覧' %>
       </h2>
-      <div class="user__card">
+      <div class="user_card">
         <%# 部分テンプレートでそのユーザーが投稿した相談投稿一覧を表示する %>
         <%= render partial: 'posts/post', collection: @user.posts %>
       </div>
