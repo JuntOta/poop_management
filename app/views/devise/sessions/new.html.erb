@@ -10,14 +10,14 @@
 
   <li class = "login_translation">
    <% if I18n.locale.to_s == "en" %>
-   <%= link_to('日本語', :locale => 'ja') %>
+   <%= link_to '日本語', "/ja/users/sign_in" %>
    <% else %>
-    <%= link_to('English', :locale => 'en') %>
+    <%= link_to 'English', "/en/users/sign_in" %>
    <% end %>
   </li>
 </header>
 
-<%= form_with model: @user, url: user_session_path, class: 'registration-main', local: true do |f| %>
+<%= form_with model: @user, url: user_session_path, class: 'login-main', local: true do |f| %>
 <div class='form-wrap'>
   <div class='form-header'>
     <h1 class='form-header-text'>

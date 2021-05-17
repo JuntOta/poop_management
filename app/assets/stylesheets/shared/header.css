@@ -66,10 +66,6 @@ header{
   text-decoration: none;
   margin-right: 3vw;
   color: black;
-  /* border-radius: 10%; */
-  /* padding: 0.3em 1em; */
-  /* border: solid 2px; */
-  /* border-radius: 5px; */
 }
 
 .user-nickname:hover{
@@ -80,7 +76,6 @@ header{
   text-decoration: none;
   color: white;
   padding: 0.5em 1em;
-  /* border: solid 2px; */
   border-radius: 5px;
   background-color: #c0c0c0;
 }
@@ -94,7 +89,6 @@ header{
   margin-right: 2vw;
   color: white;
   padding: 0.5em 1em;
-  /* border: solid 2px; */
   border-radius: 5px;
   background-color: #f39800;
 }
@@ -108,7 +102,6 @@ header{
   color: white;
   padding-top: 50px;
   padding: 0.5em 1em;
-  /* border: solid 2px; */
   border-radius: 5px;
   background-color: #f39800;
 }
@@ -118,5 +111,6 @@ header{
 }
 
 .translation{
+  font-size: 18px;
   margin-left: 3vw;
 }

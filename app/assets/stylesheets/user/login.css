@@ -1,6 +1,13 @@
+.login-main{
+  width: 100%;
+  min-width: 800px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .login-btn {
   text-align: center;
-  margin: 0 auto;
   margin-top: 50px;
 }
 
@@ -23,7 +30,7 @@
 .login_translation{
   font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
   list-style: none;
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 40px;
   margin-right: 20px;
 }

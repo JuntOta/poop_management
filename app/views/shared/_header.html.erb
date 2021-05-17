@@ -17,10 +17,10 @@
       <% end %>
       <li class = "translation">
         <% if I18n.locale.to_s == "en" %>
-         <%= link_to('日本語', :locale => 'ja') %>
+         <%= link_to '日本語', :locale => 'ja', class: "language" %>
         <% else %>
-         <%= link_to('English', :locale => 'en') %>
+         <%= link_to 'English', :locale => 'en', class: "language" %>
         <% end %>
-       </li>
+      </li>
   </ul>
 </header>
