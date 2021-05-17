@@ -85,7 +85,9 @@
 <%# うんち記録 %>
 
 <%# 相談投稿一覧 %>
+<div class = "post_table">
   <%= render partial: "posts/post", collection: @posts %>
+</div>
 <%# 相談投稿一覧 %>
 
 <%= link_to root_path, class: 'top-btn' do %>

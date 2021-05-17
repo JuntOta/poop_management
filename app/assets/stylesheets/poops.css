@@ -111,6 +111,10 @@
 
 /*相談一覧*/
 
+.post_table{
+  margin: 70px 0;
+}
+
 .post{
   border-bottom: 1px solid #c0c0c0;;
   margin: 0px 300px 0px 300px;
