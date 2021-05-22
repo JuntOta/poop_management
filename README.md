@@ -24,10 +24,11 @@ https://poop-management.herokuapp.com/ja
 ペットを愛する世界中すべての人々に使用していただきたいです！
 
 # DEMO
-### トップページ
+### * トップページ
 https://user-images.githubusercontent.com/76102818/119216721-51bace80-bb10-11eb-9eea-07bcfb6b7199.mp4
 
 トップページにはうんち記録機能、カレンダー、相談投稿一覧を表示しています。
+
 
 ### ユーザー新規登録
 <img width="1680" alt="新規登録画面" src="https://user-images.githubusercontent.com/76102818/119217381-d7d91400-bb14-11eb-8854-a665b825c4dc.png">
