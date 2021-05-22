@@ -28,8 +28,9 @@ https://poop-management.herokuapp.com/ja
 * トップページにはうんち記録機能、カレンダー、相談投稿一覧を表示しています。<br>
 
 https://user-images.githubusercontent.com/76102818/119216721-51bace80-bb10-11eb-9eea-07bcfb6b7199.mp4
-  
-  
+<br>
+<br>
+
 ### ユーザー新規登録
 * 必要事項を入力すると登録できます。<br>
 
@@ -74,6 +75,7 @@ https://user-images.githubusercontent.com/76102818/119217431-1f5fa000-bb15-11eb-
 https://user-images.githubusercontent.com/76102818/119217436-24245400-bb15-11eb-90e2-05db6c628976.mp4
 
 # 工夫したポイント
+
 
 # 使用技術（開発環境）
 
