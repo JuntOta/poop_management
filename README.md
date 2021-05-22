@@ -24,7 +24,8 @@ https://poop-management.herokuapp.com/ja
 ペットを愛する世界中すべての人々に使用していただきたいです！
 
 # DEMO
-
+### トップページ
+https://user-images.githubusercontent.com/76102818/119216721-51bace80-bb10-11eb-9eea-07bcfb6b7199.mp4
 # 工夫したポイント
 
 # 使用技術（開発環境）
