@@ -26,7 +26,6 @@ https://poop-management.herokuapp.com/ja
 # DEMO
 ### トップページ
 * トップページにはうんち記録機能、カレンダー、相談投稿一覧を表示しています。<br>
-
 https://user-images.githubusercontent.com/76102818/119216721-51bace80-bb10-11eb-9eea-07bcfb6b7199.mp4
 
 ### ユーザー新規登録
