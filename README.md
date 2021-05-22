@@ -32,4 +32,4 @@ https://poop-management.herokuapp.com/ja
 # 課題や今後実装したい機能
 
 # DB設計
-/Users/otajunto/projects/original_app/poop_management/poop.dio
+![poopER図](https://user-images.githubusercontent.com/76102818/119216358-39e24b00-bb0e-11eb-9e3b-d44add74207c.png)
