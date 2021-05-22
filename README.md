@@ -1,24 +1,33 @@
-# README
+# アプリ名
+POOP MANAGEMENT
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# 概要
+ペットのうんちを記録することで、体調管理を目的としたアプリです。  
+相談投稿機能もありユーザー同士でコミュニケーションも取れます。
 
-Things you may want to cover:
+# 本番環境
+https://poop-management.herokuapp.com/ja  
 
-* Ruby version
+ログイン情報（テスト用）  
 
-* System dependencies
+＊ Eメール：test1@test.jp
+＊ パスワード：test1111
 
-* Configuration
+＊ Eメール：test2@test.jp
+＊ パスワード：test2222
 
-* Database creation
+# 制作背景（意図）
+「最近愛犬の調子がよくないな、、」「病院に連れていくほどでもないけど心配だ、、」「気軽に相談できる人が近所にいない」そんな方々の悩みを解消したいと思い制作しています。
+このアプリを使用することによってペットの健康維持ができ、より家族とハッピーな生活を送ることが目的です。
+ペットを愛する世界中すべての人々に使用していただきたいです！
 
-* Database initialization
+# DEMO
 
-* How to run the test suite
+# 工夫したポイント
 
-* Services (job queues, cache servers, search engines, etc.)
+# 使用技術（開発環境）
 
-* Deployment instructions
+# 課題や今後実装したい機能
 
-* ...
+# DB設計
+
