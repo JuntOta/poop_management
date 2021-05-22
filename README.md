@@ -32,4 +32,4 @@ https://poop-management.herokuapp.com/ja
 # 課題や今後実装したい機能
 
 # DB設計
-
+/Users/otajunto/projects/original_app/poop_management/poop.dio
