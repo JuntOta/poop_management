@@ -26,6 +26,31 @@ https://poop-management.herokuapp.com/ja
 # DEMO
 ### トップページ
 https://user-images.githubusercontent.com/76102818/119216721-51bace80-bb10-11eb-9eea-07bcfb6b7199.mp4
+
+### ユーザー新規登録
+<img width="1680" alt="新規登録画面" src="https://user-images.githubusercontent.com/76102818/119217381-d7d91400-bb14-11eb-8854-a665b825c4dc.png">
+
+### ログイン
+<img width="1680" alt="ログイン画面" src="https://user-images.githubusercontent.com/76102818/119217392-e8898a00-bb14-11eb-8f95-225f4d0dab4a.png">
+
+### ユーザーマイページ
+https://user-images.githubusercontent.com/76102818/119217406-f6d7a600-bb14-11eb-8023-f20aeb04abdb.mp4
+
+### うんち記録
+https://user-images.githubusercontent.com/76102818/119217412-035bfe80-bb15-11eb-8a1a-eae170fe86ee.mp4
+
+### うんち記録編集/削除
+https://user-images.githubusercontent.com/76102818/119217413-0b1ba300-bb15-11eb-87cf-8e523e4a4165.mp4
+
+### 相談投稿
+https://user-images.githubusercontent.com/76102818/119217418-11118400-bb15-11eb-8ad8-adf1d9821090.mp4
+
+### 相談編集
+https://user-images.githubusercontent.com/76102818/119217431-1f5fa000-bb15-11eb-8739-c15ef10be2f3.mp4
+
+### 相談削除
+https://user-images.githubusercontent.com/76102818/119217436-24245400-bb15-11eb-90e2-05db6c628976.mp4
+
 # 工夫したポイント
 
 # 使用技術（開発環境）
