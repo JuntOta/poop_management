@@ -37,20 +37,32 @@ https://user-images.githubusercontent.com/76102818/119216721-51bace80-bb10-11eb-
 
 <img width="1680" alt="新規登録画面" src="https://user-images.githubusercontent.com/76102818/119217381-d7d91400-bb14-11eb-8854-a665b825c4dc.png">
 
+<br>
+<br>
+
 ### ログイン
 * 必要事項を入力するとログインできます。<br>
 
 <img width="1680" alt="ログイン画面" src="https://user-images.githubusercontent.com/76102818/119217392-e8898a00-bb14-11eb-8f95-225f4d0dab4a.png">
+
+<br>
+<br>
 
 ### ユーザーマイページ
 * ユーザー情報と、相談投稿一覧が表示されます。<br>
 
 https://user-images.githubusercontent.com/76102818/119217406-f6d7a600-bb14-11eb-8023-f20aeb04abdb.mp4
 
+<br>
+<br>
+
 ### うんち記録
 * 各項目はプルダウンで選択でき、メモは任意で記入できます。<br>
 
 https://user-images.githubusercontent.com/76102818/119217412-035bfe80-bb15-11eb-8a1a-eae170fe86ee.mp4
+
+<br>
+<br>
 
 ### うんち記録編集/削除
 * カレンダー上のスタンプをクリックすると、詳細ページに遷移し編集/削除が可能です。<br>
@@ -58,22 +70,34 @@ https://user-images.githubusercontent.com/76102818/119217412-035bfe80-bb15-11eb-
 
 https://user-images.githubusercontent.com/76102818/119217413-0b1ba300-bb15-11eb-87cf-8e523e4a4165.mp4
 
+<br>
+<br>
+
 ### 相談投稿
 * 必要事項を記入すると、相談投稿ができます。<br>
 * 写真は任意です。<br>
 
 https://user-images.githubusercontent.com/76102818/119217418-11118400-bb15-11eb-8ad8-adf1d9821090.mp4
 
+<br>
+<br>
+
 ### 相談編集
 * 相談投稿ユーザーの編集/削除のボタンが表示されます。<br>
 
 https://user-images.githubusercontent.com/76102818/119217431-1f5fa000-bb15-11eb-8739-c15ef10be2f3.mp4
+
+<br>
+<br>
 
 ### 相談削除
 * 相談投稿ユーザーの編集/削除のボタンが表示されます。<br>
 * 削除時は確認のアラートは表示されます。<br>
 
 https://user-images.githubusercontent.com/76102818/119217436-24245400-bb15-11eb-90e2-05db6c628976.mp4
+
+<br>
+<br>
 
 # 工夫したポイント
 
