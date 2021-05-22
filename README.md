@@ -10,11 +10,11 @@ https://poop-management.herokuapp.com/ja
 
 ログイン情報（テスト用）  
 
-＊ Eメール：test1@test.jp
-＊ パスワード：test1111
+* Eメール：test1@test.jp  
+* パスワード：test1111  
 
-＊ Eメール：test2@test.jp
-＊ パスワード：test2222
+* Eメール：test2@test.jp  
+* パスワード：test2222  
 
 # 制作背景（意図）
 「最近愛犬の調子がよくないな、、」「病院に連れていくほどでもないけど心配だ、、」「気軽に相談できる人が近所にいない」そんな方々の悩みを解消したいと思い制作しています。
