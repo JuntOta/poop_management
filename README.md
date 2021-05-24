@@ -118,6 +118,8 @@ MySQL,Sequel Pro
 ## アプリケーションサーバ（本番環境）
 ## ソース管理
 Github,GitHubDesktop
+## テスト
+RSpec
 ## エディタ
 VSCode
 
