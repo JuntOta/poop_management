@@ -87,6 +87,8 @@ en:
    post:
     投稿日時：: "Post time："
    new:
+    相談する: "consult?"
+    ログアウト: "Log out"
     相 談 の 投 稿: "Post a consultation"
    edit:
     相 談 内 容 編 集: "Edit post"

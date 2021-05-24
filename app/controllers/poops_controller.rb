@@ -7,11 +7,6 @@ class PoopsController < ApplicationController
     @poop = Poop.new
   end
 
-  # def new
-  #   @poop = Poop.new
-  # end
-
-  # 登録できなかった時のレンダーを設定する
   def create
     @poop = Poop.create(poop_params)
     if @poop.save
