@@ -1,6 +1,30 @@
 <%# CSS・・・assets/stylesheets/post/new.css %>
 
-<%= render "shared/header" %>
+<header class = "site-header">
+  <div class = "site-title">
+    <%= link_to "POOP MANAGEMENT", root_path, class: "title" %>
+   <div class = "icon">
+    <%= image_tag '肉球のアイコン3.png', class: "title-icon" %>
+   </div>
+  </div>
+  <ul class = "list-right">
+      <% if user_signed_in? %>
+      <li><%= link_to t('.相談する'), new_post_path, class: "user-post" %></li>
+      <li><%= link_to current_user.nickname, user_path(current_user.id), class: "user-nickname" %></li>
+      <li><%= link_to t('.ログアウト'), destroy_user_session_path, method: :delete, class: "logout" %></li>
+      <% else %>
+      <li><%= link_to t('.ログイン'), new_user_session_path, class: "login" %></li>
+      <li><%= link_to t('.新規登録'), new_user_registration_path, class: "sign-up"%></li>
+      <% end %>
+      <li class = "translation">
+        <% if I18n.locale.to_s == "en" %>
+         <%= link_to '日本語', "/ja/posts/new", class: "language" %>
+        <% else %>
+         <%= link_to 'English', "/en/posts/new", class: "language" %>
+        <% end %>
+      </li>
+  </ul>
+</header>
 
 <div class="main">
   <div class="inner">
