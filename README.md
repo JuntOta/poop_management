@@ -115,8 +115,6 @@ HTML,CSS
 MySQL,Sequel Pro
 ## インフラ
 Heroku,AWS(S3)
-## Webサーバ（本番環境）
-## アプリケーションサーバ（本番環境）
 ## ソース管理
 Github,GitHubDesktop
 ## テスト
