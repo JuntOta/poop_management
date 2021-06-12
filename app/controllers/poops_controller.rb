@@ -8,7 +8,7 @@ class PoopsController < ApplicationController
   end
 
   def create
-    @poop = Poop.create(poop_params)
+    @poop = Poop.new(poop_params)
     if @poop.save
       redirect_to poops_path
     else
