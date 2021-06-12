@@ -6,12 +6,17 @@ class PoopsController < ApplicationController
     @poops = Poop.all
     @poop = Poop.new
   end
+  
+  # def new
+  #   @poop = Poop.new
+  # end
 
   def create
     @poop = Poop.new(poop_params)
     if @poop.save
       redirect_to poops_path
     else
+      # render :new
       redirect_to poops_path
     end
   end
