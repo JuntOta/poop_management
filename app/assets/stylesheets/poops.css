@@ -27,6 +27,12 @@
   font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
 }
 
+.poops_error{
+  margin-bottom: 30px;
+  color: #f39800;
+  font-size: 20px;
+}
+
 .info{
   display: flex;
 }

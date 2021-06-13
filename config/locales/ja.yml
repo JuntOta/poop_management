@@ -14,3 +14,11 @@ ja:
       post:
         title: タイトル
         text: 内容
+
+        
+  poops:
+   new:
+    Shape: "かたち"
+    Color: "色"
+    Amount: "量"
+    Smell: "におい"
