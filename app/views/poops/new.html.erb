@@ -1,6 +1,10 @@
-<%= form_with model: @poop, class: 'infomations', local: true do |f| %>
+<%= render partial: "shared/header" %>
 
-  <div class="post_error">
+<%# うんち記録 %>
+
+<%= form_with model: @poop, class: 'new_infomations', local: true do |f| %>
+
+  <div class="poops_error">
   <%# エラー分の表示 %>
     <%= render 'layouts/error_messages', model: f.object %>
   <%# エラー分の表示 %>

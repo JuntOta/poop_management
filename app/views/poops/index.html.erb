@@ -7,12 +7,6 @@
 
 <%= form_with model: @poop, class: 'infomations', local: true do |f| %>
 
-  <div class="post_error">
-  <%# エラー分の表示 %>
-    <%= render 'layouts/error_messages', model: f.object %>
-  <%# エラー分の表示 %>
-  </div>
-
   <div class="time">
     <div class = "info">
       <div class="form_tag"><%= t '.うんち時間' %></div>

@@ -12,7 +12,15 @@
 }
 
 .edit_infomations{
-  height: 100vh;
+  height: 80vh;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 25px;
+  font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+}
+
+.new_infomations{
+  height: 80vh;
   margin-top: 50px;
   margin-left: 50px;
   font-size: 25px;
