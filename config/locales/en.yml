@@ -78,6 +78,14 @@ en:
     量: "Amount"
     におい: "Smell"
     メモ (任意): "Memo (optional)"
+   show:
+    うんち時間: "Poop time"
+    かたち: "Shape"
+    色: "Color"
+    量: "Amount"
+    におい: "Smell"
+    メモ (任意): "Memo (optional)"
+    編集する: "Edit"
    edit:
      うんち時間: "Poop time"
      かたち: "Shape"
