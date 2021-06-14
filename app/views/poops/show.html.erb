@@ -52,9 +52,8 @@
     <%= form.text_field :text, class:"memo", placeholder:"気になったことをメモしておこう！" %>
   </div>
 
-  <div class="submit">
-    <%= form.submit class:"submit_btn" %>
-    <%= link_to t('.削除する'), poop_path(@poop.id), method: :delete, class:"delete_btn", data: { confirm: '一度削除すると元に戻せません！！' } %>
+  <div class="edit_submit">
+    <%= link_to "編集する", edit_poop_path(@poop.id), class:"edit_btn" %>
   </div>
 
 <% end %>
