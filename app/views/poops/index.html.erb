@@ -74,7 +74,7 @@
     <% poops.each do |poop| %>
       <% if user_signed_in? && poop.user_id == current_user.id %>
         <div>
-          <%= link_to image_tag('スタンプ.png', class: "calendar_image"), edit_poop_path(poop) %>
+          <%= link_to image_tag('スタンプ.png', class: "calendar_image"), poop_path(poop) %>
         </div>
       <% end %>
     <% end %>

@@ -21,6 +21,10 @@ class PoopsController < ApplicationController
     end
   end
 
+  def show
+    @poop = Poop.find(params[:id])
+  end
+
   def edit
     @poop = Poop.find(params[:id])
   end
