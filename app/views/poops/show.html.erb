@@ -7,7 +7,7 @@
       <div class="form_tag"><%= t '.うんち時間' %></div>
       <%= image_tag 'トイレットペーパーアイコン4.png', class: "info_icon" %>
     </div>
-    <div class = "time_bo"><%= @poop.start_time %></div>
+    <div class = "time_detail"><%= @poop.start_time %></div>
   </div>
   
   <div class = "pulldown">
@@ -16,7 +16,7 @@
       <div class="form_tag"><%= t '.かたち' %></div>
       <%= image_tag 'バナナアイコン.png', class: "info_icon" %>
     </div>
-    <div class = "pulldown_box"><%= @poop.shape[:name] %></div>
+    <div class = "detail"><%= @poop.shape[:name] %></div>
   </div>
 
   <div class="color">
@@ -24,7 +24,7 @@
       <div class="form_tag"><%= t '.色' %></div>
       <%= image_tag 'パレットのアイコン9.png', class: "info_icon" %>
     </div>
-    <div class = "pulldown_box"><%= @poop.color[:name] %></div>
+    <div class = "detail"><%= @poop.color[:name] %></div>
   </div>
 
   <div class="amount">
@@ -32,7 +32,7 @@
       <div class="form_tag"><%= t '.量' %></div>
       <%= image_tag '計量カップ.png', class: "info_icon" %>
     </div>
-    <div class = "pulldown_box"><%= @poop.amount[:name] %></div>
+    <div class = "detail"><%= @poop.amount[:name] %></div>
   </div>
 
   <div class="smell">
@@ -40,7 +40,7 @@
       <div class="form_tag"><%= t '.におい' %></div>
       <%= image_tag '鼻のフリーアイコン1.png', class: "info_icon" %>
     </div>
-    <div class = "pulldown_box"><%= @poop.smell[:name] %></div>
+    <div class = "detail"><%= @poop.smell[:name] %></div>
   </div>
   </div>
 

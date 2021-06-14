@@ -18,3 +18,19 @@
 .edit_btn:hover{
   background-color: #f2ab30;
 }
+
+.time_detail{
+  height: 30px;
+  width: 400px;
+  padding: 3px 0 0 3px;
+  font-size: 20px;
+  border: 1px solid black;
+}
+
+.detail{
+  height: 30px;
+  width: 200px;
+  padding: 3px 0 0 3px;
+  font-size: 20px;
+  border: 1px solid black;
+}
