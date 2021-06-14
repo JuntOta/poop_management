@@ -21,7 +21,7 @@
 
 .time_detail{
   height: 30px;
-  width: 400px;
+  width: 250px;
   padding: 3px 0 0 3px;
   font-size: 20px;
   border: 1px solid black;
@@ -33,4 +33,11 @@
   padding: 3px 0 0 3px;
   font-size: 20px;
   border: 1px solid black;
+}
+
+.show_memo{
+  height: 80px;
+  width: 400px;
+  font-size: 20px;
+  padding-top: 10px;
 }
