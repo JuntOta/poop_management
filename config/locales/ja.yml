@@ -14,11 +14,9 @@ ja:
       post:
         title: タイトル
         text: 内容
-
         
-  poops:
-   new:
-    Shape: "かたち"
-    Color: "色"
-    Amount: "量"
-    Smell: "におい"
+      poop:
+        shape_id: かたち
+        color_id: 色
+        amount_id: 量
+        smell_id: におい
