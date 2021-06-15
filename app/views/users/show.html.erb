@@ -20,10 +20,12 @@
             <th class="table__col1"><%= t '.生年月日' %></th>
             <td class="table__col2"><%= @user.birthday %></td>
           </tr>
+          <% if current_user.id == @user.id %>
           <tr>
             <th class="table__col1"><%= t '.メールアドレス' %></th>
             <td class="table__col2"><%= @user.email %></td>
           </tr>
+          <% end %>
         </tbody>
       </table>
       <h2 class="user_heading">
