@@ -17,7 +17,7 @@
       <%= link_to @post.user.nickname, "/users/#{@post.user.id}", class: :post_user_name %>
       </div>
       <div class = "post_date">
-      <%= t '.投稿日時：' %><%= @post.created_at.strftime("%Y年 %m月 %d日 %H:%M") %>
+      <%= t '.投稿日時：' %><%= @post.created_at.strftime("%Y-%m-%d %H:%M") %>
       </div>
       <div class="post_image">
         <%= image_tag @post.image.variant(resize: '300x300') if @post.image.attached? %>

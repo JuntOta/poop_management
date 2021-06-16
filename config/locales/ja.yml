@@ -7,6 +7,8 @@ ja:
   activerecord:
     attributes:
       user:
+        email: Eメール
+        password: パスワード
         nickname: ニックネーム
         animal: 動物の種類
         birthday: 生年月日
