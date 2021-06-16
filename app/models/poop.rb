@@ -2,7 +2,7 @@ class Poop < ApplicationRecord
   validates :start_time,  presence: true
 
   with_options numericality: { other_than: 1 } do
-    validates :shape_id
+    validates :shape_id,  presence: true
     validates :color_id
     validates :amount_id
     validates :smell_id
