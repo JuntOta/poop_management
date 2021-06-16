@@ -121,18 +121,18 @@ en:
   activerecord:
     attributes:
       user:
-        Eメール: Email
-        パスワード: Password
-        ニックネーム: Nickname
-        動物の種類: Animal
-        生年月日: birthday
+        Eメール: "Email"
+        パスワード: "Password"
+        ニックネーム: "Nickname"
+        動物の種類: "Animal"
+        生年月日: "Birthday"
 
       post:
-        タイトル: title
-        内容: text
+        タイトル: "title"
+        内容: "text"
         
       poop:
-        かたち: shape_id
-        色: color_id
-        量: amount_id
-        におい: smell_id
+        かたち: "shape_id"
+        色: "color_id"
+        量: "amount_id"
+        におい: "smell_id"
