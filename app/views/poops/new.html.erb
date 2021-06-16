@@ -24,7 +24,7 @@
       <div class="form_tag"><%= t '.かたち' %></div>
       <%= image_tag 'バナナアイコン.png', class: "info_icon" %>
     </div>
-    <%= f.collection_select(:shape_id, Shape.all, :id, :name, {}, {class:"pulldown_box"}) %>
+    <%= f.collection_select(:shape_id, Shape.all, :id, :name, {include_blank: "---"}, {class:"pulldown_box"}) %>
   </div>
 
   <div class="color">
@@ -32,7 +32,7 @@
       <div class="form_tag"><%= t '.色' %></div>
       <%= image_tag 'パレットのアイコン9.png', class: "info_icon" %>
     </div>
-    <%= f.collection_select(:color_id, Color.all, :id, :name, {}, {class:"pulldown_box"}) %>
+    <%= f.collection_select(:color_id, Color.all, :id, :name, {include_blank: "---"}, {class:"pulldown_box"}) %>
   </div>
 
   <div class="amount">
@@ -40,7 +40,7 @@
       <div class="form_tag"><%= t '.量' %></div>
       <%= image_tag '計量カップ.png', class: "info_icon" %>
     </div>
-    <%= f.collection_select(:amount_id, Amount.all, :id, :name, {}, {class:"pulldown_box"}) %>
+    <%= f.collection_select(:amount_id, Amount.all, :id, :name, {include_blank: "---"}, {class:"pulldown_box"}) %>
   </div>
 
   <div class="smell">
@@ -48,7 +48,7 @@
       <div class="form_tag"><%= t '.におい' %></div>
       <%= image_tag '鼻のフリーアイコン1.png', class: "info_icon" %>
     </div>
-    <%= f.collection_select(:smell_id, Smell.all, :id, :name, {}, {class:"pulldown_box"}) %>
+    <%= f.collection_select(:smell_id, Smell.all, :id, :name, {include_blank: "---"}, {class:"pulldown_box"}) %>
   </div>
   </div>
 
