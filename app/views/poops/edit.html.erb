@@ -2,6 +2,12 @@
 
 <%= form_with model: @poop, class: 'edit_infomations', local: true  do |form| %>
 
+  <div class="poops_error">
+  <%# エラー分の表示 %>
+    <%= render 'layouts/error_messages', model: form.object %>
+  <%# エラー分の表示 %>
+  </div>
+
   <div class="time">
     <div class = "info">
       <div class="form_tag"><%= t '.うんち時間' %></div>
@@ -16,7 +22,7 @@
       <div class="form_tag"><%= t '.かたち' %></div>
       <%= image_tag 'バナナアイコン.png', class: "info_icon" %>
     </div>
-    <%= form.collection_select(:shape_id, Shape.all, :id, :name, {}, {class:"pulldown_box"}) %>
+    <%= form.collection_select(:shape_id, Shape.all, :id, :name, {include_blank: "---"}, {class:"pulldown_box"}) %>
   </div>
 
   <div class="color">
@@ -24,7 +30,7 @@
       <div class="form_tag"><%= t '.色' %></div>
       <%= image_tag 'パレットのアイコン9.png', class: "info_icon" %>
     </div>
-    <%= form.collection_select(:color_id, Color.all, :id, :name, {}, {class:"pulldown_box"}) %>
+    <%= form.collection_select(:color_id, Color.all, :id, :name, {include_blank: "---"}, {class:"pulldown_box"}) %>
   </div>
 
   <div class="amount">
@@ -32,7 +38,7 @@
       <div class="form_tag"><%= t '.量' %></div>
       <%= image_tag '計量カップ.png', class: "info_icon" %>
     </div>
-    <%= form.collection_select(:amount_id, Amount.all, :id, :name, {}, {class:"pulldown_box"}) %>
+    <%= form.collection_select(:amount_id, Amount.all, :id, :name, {include_blank: "---"}, {class:"pulldown_box"}) %>
   </div>
 
   <div class="smell">
@@ -40,7 +46,7 @@
       <div class="form_tag"><%= t '.におい' %></div>
       <%= image_tag '鼻のフリーアイコン1.png', class: "info_icon" %>
     </div>
-    <%= form.collection_select(:smell_id, Smell.all, :id, :name, {}, {class:"pulldown_box"}) %>
+    <%= form.collection_select(:smell_id, Smell.all, :id, :name, {include_blank: "---"}, {class:"pulldown_box"}) %>
   </div>
   </div>
 
