@@ -114,3 +114,24 @@ header{
   font-size: 18px;
   margin-left: 3vw;
 }
+
+/* タブレット表示時 */
+@media (max-width: 1024px) {
+  header{
+    height:100px;
+    width: 100%;
+    background-color: #f6e5cc;
+    /* border: solid;
+    border-color: #cbd0d3; */
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .site-title{
+    font-family: 'Hannotate SC',sans-serif;
+    font-size: 50px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
