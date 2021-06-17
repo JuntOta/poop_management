@@ -4,10 +4,8 @@
 
 header{
   height:100px;
-  width: 100%;
+  width: 100vw;
   background-color: #f6e5cc;
-  /* border: solid;
-  border-color: #cbd0d3; */
   display: flex;
   justify-content: space-between;
 }
@@ -135,5 +133,120 @@ header{
     height: 40px;
     margin-top: 30px;
     margin-left: 20px;
+  }
+  .list-right{
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-right: 20px;
+  }
+  .translation{
+    font-size: 15px;
+    margin-left: 3vw;
+  }
+}
+
+/* スマホ表示時 */
+@media (max-width: 880px) {
+  .site-title{
+    font-family: 'Hannotate SC',sans-serif;
+    font-size: 30px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .title{
+    text-decoration: none;
+    color: black;
+    margin-top: 30px;
+  }
+  .title-icon{
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  .list-right{
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 770px) {
+  header{
+    height: 70px;
+    width: 100vw;
+    background-color: #f6e5cc;
+    display: flex;
+    justify-content: space-between;
+  }
+  .site-title{
+    font-family: 'Hannotate SC',sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .title{
+    text-decoration: none;
+    color: black;
+    margin-top: 25px;
+  }
+  .title-icon{
+    width: 20px;
+    height: 20px;
+    margin-top: 25px;
+    margin-left: 10px;
+  }
+  .list-right{
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-top: 25px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 599px) {
+  .site-title{
+    font-family: 'Hannotate SC',sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .title{
+    text-decoration: none;
+    color: black;
+    margin-top: 25px;
+  }
+  .title-icon{
+    width: 20px;
+    height: 20px;
+    margin-top: 25px;
+    margin-left: 5px;
+  }
+  .list-right{
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 8px;
+    margin-top: 30px;
+    margin-right: 5px;
+  }
+  .translation{
+    font-size: 10px;
+    margin-left: 3vw;
   }
 }
