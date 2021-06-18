@@ -191,6 +191,16 @@
     padding: 0.3em 2em;
     border-radius: 50px;
   }
+  .delete_btn{
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+    font-size: 15px;
+    color: #f39800;
+    border: solid 2px;
+    margin-left: 10px;
+    padding: 0.55em 2em;
+    border-radius: 50px;
+    text-decoration: none;
+  }
 }
 
 @media (max-width: 770px) {
@@ -241,6 +251,79 @@
     height: 30px;
     width: 100px;
     font-size: 15px;
+  }
+  .submit_btn{
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: #f39800;
+    border-radius: 10%;
+    border: none;
+    padding: 0.3em 2em;
+    border-radius: 50px;
+  }
+}
+
+@media (max-width: 599px) {
+  .infomations{
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+  }
+  .edit_infomations{
+    height: 80vh;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+  }
+  .new_infomations{
+    height: 80vh;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+  }
+  .poops_error{
+    margin-bottom: 30px;
+    color: #f39800;
+    font-size: 15px;
+  }
+  .form_tag{
+    margin-top: 5px;
+  }
+  .info_icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  .time_box{
+    height: 30px;
+    width: 80px;
+    font-size: 15px;
+  }
+  .pulldown{
+    display: flex;
+    margin-top: 20px;
+  }
+  .pulldown_box{
+    height: 30px;
+    width: 100px;
+    font-size: 15px;
+  }
+  .color{
+    margin-left: 20px;
+  }
+  .amount{
+    margin-left: 20px;
+  }
+  .smell{
+    margin-left: 20px;
+  }
+  .text{
+    margin-top: 20px;
   }
   .submit_btn{
     font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
