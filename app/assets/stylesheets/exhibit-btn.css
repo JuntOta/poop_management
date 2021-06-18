@@ -48,3 +48,63 @@
   width: 50%;
   height: 50%;
 }
+
+@media (max-width: 990px) {
+  .poop-btn {
+    width: 80px;
+    height: 80px;
+    background: #f39800;
+    text-align: center;
+    border-radius: 50%;
+    bottom: 110px;
+    right: 32px;
+    position: fixed;
+    text-decoration: none;
+  }
+  .poop-btn-icon {
+    margin-top: 15px;
+    width: 60%;
+    height: 60%;
+  }
+}
+
+@media (max-width: 599px) {
+  .poop-btn {
+    width: 60px;
+    height: 60px;
+    background: #f39800;
+    text-align: center;
+    border-radius: 50%;
+    bottom: 100px;
+    right: 20px;
+    position: fixed;
+    text-decoration: none;
+  }
+  .poop-btn-icon {
+    margin-top: 10px;
+    width: 60%;
+    height: 60%;
+  }
+  .top-btn {
+    width: 40px;
+    height: 40px;
+    background: #c0c0c0;
+    text-align: center;
+    border-radius: 4%;
+    bottom: 32px;
+    right: 20px;
+    position: fixed;
+    text-decoration: none;
+  }
+  .top-btn-text {
+    color: black;
+    display: block;
+    font-size: 10px;
+    text-decoration: none;
+  }
+  
+  .top-btn-icon {
+    width: 50%;
+    height: 50%;
+  }
+}

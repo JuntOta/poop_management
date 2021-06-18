@@ -2,7 +2,6 @@
   margin-top: 30px;
 }
 
-
 .edit_btn{
   font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
   font-size: 20px;
@@ -43,5 +42,68 @@
 }
 
 @media (max-width: 990px) {
-  
+  .edit_btn{
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: #f39800;
+    border-radius: 10%;
+    border: none;
+    padding: 0.55em 2em;
+    border-radius: 50px;
+    text-decoration: none;
+  }
+  .time_detail{
+    height: 30px;
+    width: 220px;
+    padding: 3px 0 0 3px;
+    font-size: 20px;
+    border: 1px solid black;
+  }
+  .detail{
+    height: 30px;
+    width: 150px;
+    padding: 3px 0 0 3px;
+    font-size: 20px;
+    border: 1px solid black;
+  }
+  .show_memo{
+    height: 80px;
+    width: 400px;
+    font-size: 15px;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 770px) {
+  .time_detail{
+    height: 30px;
+    width: 200px;
+    padding: 6px 0 0 3px;
+    font-size: 15px;
+    border: 1px solid black;
+  }
+  .detail{
+    height: 30px;
+    width: 110px;
+    padding: 6px 0 0 3px;
+    font-size: 15px;
+    border: 1px solid black;
+  }
+  .show_memo{
+    height: 80px;
+    width: 400px;
+    font-size: 15px;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 599px) {
+  .detail{
+    height: 30px;
+    width: 100px;
+    padding: 6px 0 0 3px;
+    font-size: 15px;
+    border: 1px solid black;
+  }
 }

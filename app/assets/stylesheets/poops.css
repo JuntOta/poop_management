@@ -201,6 +201,10 @@
     border-radius: 50px;
     text-decoration: none;
   }
+  .calendar_image{
+    height: 40px;
+    margin-left: 15px;
+  }
 }
 
 @media (max-width: 770px) {
@@ -334,6 +338,10 @@
     border: none;
     padding: 0.3em 2em;
     border-radius: 50px;
+  }
+  .calendar_image{
+    height: 25px;
+    margin-left: 15px;
   }
 }
 
