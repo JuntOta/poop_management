@@ -1,6 +1,5 @@
 .registration-main {
   width: 100%;
-  /* min-width: 800px; */
   height: 100%;
   min-height: 900px;
   display: flex;
@@ -11,6 +10,10 @@
   color: #f39800;
   width: 30%;
   margin: 0 auto;
+}
+
+.field_with_errors {
+  display: contents;
 }
 
 .form-wrap {
@@ -130,4 +133,59 @@
   font-size: 18px;
   margin-top: 40px;
   margin-right: 20px;
+}
+
+@media (max-width: 990px) {
+  .form-wrap {
+    width: 90%;
+    background-color: white;
+    padding-bottom: 70px;
+    height: 100%;
+  }
+  .form-group {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 770px) {
+  .form-wrap {
+    width: 100%;
+    background-color: white;
+    padding-bottom: 70px;
+    height: 100%;
+  }
+  .signup_translation{
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+    list-style: none;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+  .form-group {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 599px) {
+  .form-wrap {
+    width: 100%;
+    background-color: white;
+    padding-bottom: 70px;
+    height: 100%;
+  }
+  .form-group {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
 }
