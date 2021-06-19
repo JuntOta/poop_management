@@ -251,7 +251,14 @@ header{
   }
 }
 
-@media (max-width: 499px) {
+/* @media (max-width: 499px) {
+  header{
+    height: 80px;
+    width: 100%;
+    background-color: #f6e5cc;
+    display: flex;
+    justify-content: space-between;
+  }
   .site-title{
     font-family: 'Hannotate SC',sans-serif;
     font-size: 20px;
@@ -283,4 +290,4 @@ header{
     font-size: 10px;
     margin-left: 3vw;
   }
-}
+} */
