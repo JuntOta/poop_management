@@ -58,3 +58,47 @@
 .form_btn:hover{
   background-color: #f2ab30;
 }
+
+@media (max-width: 1080px) {
+  .form_text{
+    height: 200px;
+    width: 500px;
+    margin-top: 10px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 990px) {
+}
+
+@media (max-width: 770px) {
+  .form_text{
+    height: 200px;
+    width: 400px;
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  .form_btn{
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: #f39800;
+    border-radius: 10%;
+    border: none;
+    padding: 0.3em 2.7em;
+    border-radius: 50px;
+  }
+}
+
+@media (max-width: 599px) {
+  .form_btn{
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: #f39800;
+    border-radius: 10%;
+    border: none;
+    padding: 0.3em 2.7em;
+    border-radius: 50px;
+  }
+}

@@ -250,3 +250,37 @@ header{
     margin-left: 3vw;
   }
 }
+
+@media (max-width: 499px) {
+  .site-title{
+    font-family: 'Hannotate SC',sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .title{
+    text-decoration: none;
+    color: black;
+    margin-top: 25px;
+  }
+  .title-icon{
+    width: 20px;
+    height: 20px;
+    margin-top: 25px;
+    margin-left: 5px;
+  }
+  .list-right{
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 8px;
+    margin-top: 30px;
+    margin-right: 5px;
+  }
+  .translation{
+    font-size: 10px;
+    margin-left: 3vw;
+  }
+}

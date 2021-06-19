@@ -74,3 +74,27 @@
   color: #999;
   text-decoration: underline;
 }
+
+@media (max-width: 1080px) {
+.inner{
+  padding: 50px 120px 0 120px;
+  }
+}
+
+@media (max-width: 990px) {
+.inner{
+  padding: 50px 150px 0 150px;
+  }
+}
+
+@media (max-width: 770px) {
+.inner{
+  padding: 50px 100px 0 100px;
+  }
+}
+
+@media (max-width: 599px) {
+.inner{
+  padding: 50px 60px 0 60px;
+  }
+}
