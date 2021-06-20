@@ -44,3 +44,28 @@
     margin-right: 20px;
   }
 }
+
+@media (max-width: 400px) {
+  .login-orange-btn {
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: #f39800;
+    border-radius: 10%;
+    border: none;
+    padding: 0.5em 6em;
+    border-radius: 50px;
+  }
+  .login-flash-message {
+    margin-top: 10px;
+    text-align: center;
+    color: #f39800;
+  }
+  .login_translation{
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+    list-style: none;
+    font-size: 10px;
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+}
