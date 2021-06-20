@@ -251,9 +251,9 @@ header{
   }
 }
 
-/* @media (max-width: 499px) {
+@media (max-width: 400px) {
   header{
-    height: 80px;
+    height: 70px;
     width: 100%;
     background-color: #f6e5cc;
     display: flex;
@@ -261,20 +261,20 @@ header{
   }
   .site-title{
     font-family: 'Hannotate SC',sans-serif;
-    font-size: 20px;
-    margin-left: 10px;
+    font-size: 12px;
+    margin-left: 5px;
     display: flex;
     justify-content: space-between;
   }
   .title{
     text-decoration: none;
     color: black;
-    margin-top: 25px;
+    margin-top: 30px;
   }
   .title-icon{
-    width: 20px;
-    height: 20px;
-    margin-top: 25px;
+    width: 15px;
+    height: 15px;
+    margin-top: 28px;
     margin-left: 5px;
   }
   .list-right{
@@ -282,7 +282,7 @@ header{
     list-style: none;
     display: flex;
     justify-content: space-between;
-    font-size: 8px;
+    font-size: 5px;
     margin-top: 30px;
     margin-right: 5px;
   }
@@ -290,4 +290,4 @@ header{
     font-size: 10px;
     margin-left: 3vw;
   }
-} */
+}

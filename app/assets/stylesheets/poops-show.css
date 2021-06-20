@@ -107,3 +107,26 @@
     border: 1px solid black;
   }
 }
+
+@media (max-width: 400px) {
+  .time_detail{
+    height: 25px;
+    width: 150px;
+    padding: 5px 0 0 3px;
+    font-size: 10px;
+    border: 1px solid black;
+  }
+  .detail{
+    height: 25px;
+    width: 70px;
+    padding: 5px 0 0 3px;
+    font-size: 10px;
+    border: 1px solid black;
+  }
+  .show_memo{
+    height: 80px;
+    width: 300px;
+    font-size: 10px;
+    padding-top: 10px;
+  }
+}

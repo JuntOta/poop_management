@@ -345,6 +345,67 @@
   }
 }
 
+@media (max-width: 400px) {
+  .poops_error{
+    margin-bottom: 30px;
+    color: #f39800;
+    font-size: 15px;
+  }
+  .form_tag{
+    margin-top: 5px;
+  }
+  .info_icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  .time_box{
+    height: 20px;
+    width: 50px;
+    font-size: 15px;
+  }
+  .pulldown{
+    display: flex;
+    margin-top: 20px;
+  }
+  .pulldown_box{
+    height: 20px;
+    width: 70px;
+    font-size: 15px;
+  }
+  .memo{
+    height: 60px;
+    width: 300px;
+  }
+  .color{
+    margin-left: 20px;
+  }
+  .amount{
+    margin-left: 20px;
+  }
+  .smell{
+    margin-left: 20px;
+  }
+  .text{
+    margin-top: 20px;
+  }
+  .submit_btn{
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: #f39800;
+    border-radius: 10%;
+    border: none;
+    padding: 0.3em 2em;
+    border-radius: 50px;
+  }
+  .calendar_image{
+    height: 18px;
+    margin-left: 5px;
+  }
+}
+
 /*うんち記録*/
 
 
@@ -428,4 +489,11 @@
   }
 }
 
+@media (max-width: 400px) {
+  .post{
+    border-bottom: 1px solid #c0c0c0;;
+    margin: 0px 50px 0px 50px;
+    padding: 30px 10px 10px 10px;
+  }
+}
 /*相談一覧*/
