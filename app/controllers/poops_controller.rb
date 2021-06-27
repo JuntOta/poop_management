@@ -17,7 +17,6 @@ class PoopsController < ApplicationController
       redirect_to poops_path
     else
       render :new
-      # redirect_to poops_path
     end
   end
 
